@@ -9,13 +9,35 @@ import javax.lang.model.util.ElementScanner14;
 public class RegexTasks {
 
 	public static void main(String[] args) {
-			
-		String dl;
-		System.out.println("Enter a valid Drivers License #");
-		//in NJ a DL includes a capital letter as the first character followed by 14 numbers
+		//task1 - write a program to validate an SSN number using regex	
+		String ssn;
+		System.out.println("Enter a valid SSN ");
 		Scanner sc = new Scanner(System.in);
 		
-		dl = sc.nextLine();
+		ssn = sc.nextLine();
+		
+		System.out.println(ssn);
+		
+		if (ssn.matches("[0-9]{9}")) {
+			System.out.println("This is a valid SSN");
+		}else {
+			System.out.println("This is not a valid SSN");
+		}
+	
+		//task2 - write a program to validate DL 
+		String dl;
+		System.out.println("Enter a valid Drivers License # ");
+		Scanner sc2 = new Scanner(System.in);
+		
+		dl = sc2.nextLine();
+		System.out.println(dl);
+		
+		//In NJ a valid dl numbers is a capital letter followed by 14 digits
+		if (dl.matches("[A-Z]{1}[0-9]{14}")) {
+			System.out.println("This is a valid Driverse License #");
+		}else {
+			System.out.println("This is not a valid Drivers License #");
+		}
 		
 	}
 
