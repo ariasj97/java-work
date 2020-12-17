@@ -19,7 +19,7 @@ public class RegexTasks {
 		
 		System.out.println(ssn);
 		
-		if (ssn.matches("[0-9]{9}")) {
+		if (ssn.matches("[0-9]{3}\\-[0-9]{2}\\-[0-9]{4}")) {
 			System.out.println("This is a valid SSN");
 		}else {
 			System.out.println("This is not a valid SSN");
