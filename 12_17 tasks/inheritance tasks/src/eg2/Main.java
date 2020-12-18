@@ -1,0 +1,38 @@
+package eg2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//creating two new address objects
+		Address a1 = new Address(123,"1st Street","New York",123456);
+		Address a2 = new Address(45678,"2nd Street", "New York",456789);
+		
+		Project p1=new Project(9000, "Abc Corp", "Abc Corp Some Client");
+		
+		Employee e1=new  Employee(100, "Sachin", "Manager", 23333.44,p1,a1,a2);
+		System.out.println("e1");
+		System.out.println(e1);
+		
+		//creating team and player objects
+		Team t1 = new Team(246,"The best team","Coach John");
+		Player z1 = new Player(99.9,t1);
+		System.out.println("z1");
+		System.out.println(z1);
+				
+//		Employee e2=new Employee(101, "Richard", "Associate", 2000.33,p1);
+//		System.out.println("e2");
+//		System.out.println(e2);
+//		
+//		Project p2=new Project(9001, "SMS", "Revature");
+//		Employee e3=new Employee(102, "Tushar", "Manager", 33000.33, p2);
+//		System.out.println("e3");
+//		System.out.println(e3);
+		
+		
+		
+		
+				
+		
+	}
+
+} //Complete Address, Player and Team
