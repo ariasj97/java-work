@@ -1,5 +1,0 @@
-package custom_demo;
-
-public class InvalidDLException {
-
-}
