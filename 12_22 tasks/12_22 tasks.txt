@@ -1,0 +1,11 @@
+1)ACID Properties
+A(Atomicity): The entire transaction takes place at one or doesn't happen at all.
+C(Consistency): The database must be consistent befor and after the transaction.
+I(Isolation): Multiple Transactions occur independently wothout interference.
+D(Durability): The changes of a successful transaction occurs even if the system failure occurs.
+
+2)isolation levels (PostgresSQL)
+Transaction Isolation: SQL defines 3 levels of transaction isolation. The most strict is 	- Serializable isolation level guarantees that concurrent transactions run as they would if you would run sequentially one by one in order.
+	- Read Repeatable isolation is one step weaker and it allows Phantom Reads to happen in the transaction. Contrary to transactions running in the Serializable mode, the set 	of rows that 	is returned by two consecutive select queries in a transaction can differ. This can happen if another transaction adds or removes rows from the table we 	are querying.
+	- Read Commited is one level weaker and two consecutive select statments in a 	transaction can return different data. Contrary to the Read Repeatable level, this 	level allows not 	only the set of rows to change, but also the data that those rows contain. This can happen if another transaction modifies the rows.
+	- Read Uncommitted is the weakest isolation level and this where dirty reads can occur. This means that non committed changes from other transaction can affect a 	transaction. This 	read is not supported by PostgreSQL.
