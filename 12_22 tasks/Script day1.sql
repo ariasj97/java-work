@@ -53,3 +53,29 @@ order by player.team_id desc;
 select player.name, player.jersey_num, team.team_name, team.sport 
 from player 
 cross join team;
+
+--selects smallest number in jersey_num column
+select min(jersey_num)
+from player;
+
+--selects largest number in jersey_num column
+select max(jersey_num)
+from player;
+
+--executes the avg of jersey_num column
+select avg(jersey_num)
+from player;
+
+--reverses the name of player
+select reverse(name)
+from player;
+
+--unites all players and team name onto a result set (used to also see duplicate values)
+select sport from team
+union all 
+select name from player;
+
+--does not select duplicates
+select sport from team
+union  
+select name from player;
