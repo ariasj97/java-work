@@ -1,0 +1,32 @@
+1)http?
+Hypertext Transfer Protocol or http is used to load pages on the internet using hyperlinks. It is the foundation of the World Wide Web, and is used to load web pages using hypertext links. HTTP is an application layer protocol designed to transfer infromation between networked devices and runs on top of other layers of the network protocol stack. A typical flow over HTTP involves a client machine making a request to a server, which then sends a response message.
+
+2)http vs https?
+To understand the differance between both porotcols you must know what HTTPS is. Is stands for Hypertext Transfer Protocol Secure, and its main purpose is to solve HTTP's biggest problem. The information that flows through server that uses HTTP is not encrypted and if you are usting usernames and passwords on the server you can not guarantee the saftey of your users information. HTTPS uses SSL or secure sockets layer certifivate, which help create a secure encryptred connection between the server and the browser, so that all the sensitive information that is that is on there can be safer.
+
+3)who is a client? Who is a server?
+The client is any tool that acts on behalf of the user. Usually this roll is performed by the Web browser. The browser is always the entity initiating the request. It is never the server. To present a web page, the browser sends an original request to fetch the HTML document that represents the page. It then parses this fil, making additional requests corresponding to execution scrips, layout informatiuon to displayy, and sup resources contained within the page. The web browser then mixes these resources to present to the user a complete document.
+
+A server, serves the document that is requested by the client. A server appears as only a single machine virtually, this is because it may actually be a collection of servers, sharing the load(load balancing) or a complex piece of software interrogating other computers( like cache, a DB server, or e-commerce servers), totally or partially generatying the document on demand. A server is not necessarily a single machine, but several software instances can be hosted on the same machine.
+ 
+4)http methods(get,post,delete,put,patch,trace,options)
+GET: is used to request data from a specified resource.
+POST: is used to send data to a server to create/update a resource.
+DELETE: is used to delete the specified resource.
+PUT: is used to send data to a server to create/update a resource.
+PATCH: applies partial modification to a resource.
+TRACE: performs a message loop-back along the path to the target resource, providing a useful debugging mechanism.
+options
+OPTIONS: permitted communication options for a given URL or server. A client can specify a URL  with this method, or an asterisk to refer to the entire server.
+
+5)http status codes(100-500)
+HTTP response status codes indicate wherther a specific HTTP request has been successfully completed. Responses are group-ed in five classes:
+
+1. Informational responses(100-199)
+1. Successful responses(200-299)
+1. Redirects(300-399)
+1. Client errors(400-499)
+1. Server errors(500-599)
+
+list of status codes: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
