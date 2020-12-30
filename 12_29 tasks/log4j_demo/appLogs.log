@@ -1,0 +1,54 @@
+{INFO} com.app.main.HelloLog4j	hello from INFO		29-12-2020 Tuesday EST 23:12:10
+{WARN} com.app.main.HelloLog4j	hello from WARN		29-12-2020 Tuesday EST 23:12:10
+{ERROR} com.app.main.HelloLog4j	hello from ERROR		29-12-2020 Tuesday EST 23:12:10
+{FATAL} com.app.main.HelloLog4j	hello from FATAL		29-12-2020 Tuesday EST 23:12:10
+{INFO} com.app.service.HelloLogService	hello, from log service helloLog()		29-12-2020 Tuesday EST 23:12:10
+{INFO} com.app.service.HelloLogService	bye, from log service helloLog()		29-12-2020 Tuesday EST 23:12:10
+{INFO} com.app.main.HelloLog4j	hello from INFO		29-12-2020 Tuesday EST 23:14:18
+{WARN} com.app.main.HelloLog4j	hello from WARN		29-12-2020 Tuesday EST 23:14:18
+{ERROR} com.app.main.HelloLog4j	hello from ERROR		29-12-2020 Tuesday EST 23:14:18
+{FATAL} com.app.main.HelloLog4j	hello from FATAL		29-12-2020 Tuesday EST 23:14:18
+{INFO} com.app.service.HelloLogService	hello, from log service helloLog()		29-12-2020 Tuesday EST 23:14:18
+{INFO} com.app.service.HelloLogService	bye, from log service helloLog()		29-12-2020 Tuesday EST 23:14:18
+{INFO} com.app.main.HelloLog4j	hello from INFO		29-12-2020 Tuesday EST 23:14:23
+{WARN} com.app.main.HelloLog4j	hello from WARN		29-12-2020 Tuesday EST 23:14:23
+{ERROR} com.app.main.HelloLog4j	hello from ERROR		29-12-2020 Tuesday EST 23:14:23
+{FATAL} com.app.main.HelloLog4j	hello from FATAL		29-12-2020 Tuesday EST 23:14:23
+{INFO} com.app.service.HelloLogService	hello, from log service helloLog()		29-12-2020 Tuesday EST 23:14:23
+{INFO} com.app.service.HelloLogService	bye, from log service helloLog()		29-12-2020 Tuesday EST 23:14:23
+29-12-2020-main--INFO -com.app.main.HelloLog4j:hello from INFO
+29-12-2020-main--WARN -com.app.main.HelloLog4j:hello from WARN
+29-12-2020-main--ERROR-com.app.main.HelloLog4j:hello from ERROR
+29-12-2020-main--FATAL-com.app.main.HelloLog4j:hello from FATAL
+29-12-2020-main--INFO -com.app.service.HelloLogService:hello, from log service helloLog()
+29-12-2020-main--INFO -com.app.service.HelloLogService:bye, from log service helloLog()
+29-12-2020--INFO -com.app.main.HelloLog4j:hello from INFO
+29-12-2020--WARN -com.app.main.HelloLog4j:hello from WARN
+29-12-2020--ERROR-com.app.main.HelloLog4j:hello from ERROR
+29-12-2020--FATAL-com.app.main.HelloLog4j:hello from FATAL
+29-12-2020--INFO -com.app.service.HelloLogService:hello, from log service helloLog()
+29-12-2020--INFO -com.app.service.HelloLogService:bye, from log service helloLog()
+29-12-2020-INFO -com.app.main.HelloLog4j:hello from INFO
+29-12-2020-WARN -com.app.main.HelloLog4j:hello from WARN
+29-12-2020-ERROR-com.app.main.HelloLog4j:hello from ERROR
+29-12-2020-FATAL-com.app.main.HelloLog4j:hello from FATAL
+29-12-2020-INFO -com.app.service.HelloLogService:hello, from log service helloLog()
+29-12-2020-INFO -com.app.service.HelloLogService:bye, from log service helloLog()
+23:29 29-12-2020-INFO -com.app.main.HelloLog4j:hello from INFO
+23:29 29-12-2020-WARN -com.app.main.HelloLog4j:hello from WARN
+23:29 29-12-2020-ERROR-com.app.main.HelloLog4j:hello from ERROR
+23:29 29-12-2020-FATAL-com.app.main.HelloLog4j:hello from FATAL
+23:29 29-12-2020-INFO -com.app.service.HelloLogService:hello, from log service helloLog()
+23:29 29-12-2020-INFO -com.app.service.HelloLogService:bye, from log service helloLog()
+23:29 29-12-2020-5p-com.app.main.HelloLog4j:hello from INFO
+23:29 29-12-2020-5p-com.app.main.HelloLog4j:hello from WARN
+23:29 29-12-2020-5p-com.app.main.HelloLog4j:hello from ERROR
+23:29 29-12-2020-5p-com.app.main.HelloLog4j:hello from FATAL
+23:29 29-12-2020-5p-com.app.service.HelloLogService:hello, from log service helloLog()
+23:29 29-12-2020-5p-com.app.service.HelloLogService:bye, from log service helloLog()
+23:30 29-12-2020-INFO -com.app.main.HelloLog4j:hello from INFO
+23:30 29-12-2020-WARN -com.app.main.HelloLog4j:hello from WARN
+23:30 29-12-2020-ERROR-com.app.main.HelloLog4j:hello from ERROR
+23:30 29-12-2020-FATAL-com.app.main.HelloLog4j:hello from FATAL
+23:30 29-12-2020-INFO -com.app.service.HelloLogService:hello, from log service helloLog()
+23:30 29-12-2020-INFO -com.app.service.HelloLogService:bye, from log service helloLog()

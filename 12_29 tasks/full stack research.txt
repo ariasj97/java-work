@@ -1,0 +1,27 @@
+1) What does a full stack developer do?
+A full stack developer is a person who can develope both client and server software. In addition to mastering HTML and CSS, he/she also knows how to program a browser using tools like JavaSscript, jQuery, Anhular, or Vue. Program a server with tools like PHP, ASP, Python, or Node. Program a database using tools like SQL, SQLite, or MongoDB.
+
+2) What are the advangages and disadvantages of a full stack developer?
+Advantages:
+- You can master all the techniques involved in a development project.
+- You can make a protoype very rapidly.
+- You can reduce the cost of the project.
+- You can reduce the time used for team communication.
+- You switch between front and back end development based on requirments.
+- You can better understand all aspects of new and upcoming technologies.
+
+Disadvantages:
+- The slution chosen can be wrong for the project.
+- The solution chosen can be dependent on developer skills.
+- The solution can generate a key person risk.
+- Being a full stack developer is increasingly complex.
+
+3)What are the most popular stacks?
+- LAMP stack: JavaScript - Linux - Apache - MySQL - PHP
+- LEMP stack: JavaScript - Linux - Nginx - MySQL - PHP
+- MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js
+- Django stack: JavaScript - Python - Django - MySQL
+- Ruby on Rails: JavaScript - Ruby - SQLite - Rails
+
+4) What are a jobs expectations of a full stack developer?
+When emplyed by a company they expect you to participate in the design and creation of scalable software. Also in writing clean, functional code on the front and back end. They also expect you to be able to test and fix bugs on your code to ensure the software is responsive and efficient. Usually as a full stack developer you work on a project with other poeple in other roles like data scientists and project managers so there must be proper communication between each other to stay on track.
